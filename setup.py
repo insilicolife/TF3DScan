@@ -1,11 +1,21 @@
-from setuptools import setup
+import setuptools
 
-setup(name='tf3dscan',
-      version='0.1',
-      description='Transcription factor binding site prediction using 3D convolutional scan',
-      url='http://github.com/storborg/funniest',
-      author='Nigatu Ayele',
-      author_email='naodm2006awet4@gmail.com',
-      license='MIT',
-      packages=['funniest'],
-      zip_safe=False)
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="TF3Dscan",
+    version="0.0.1",
+    author="Nigatu Ayele",
+    author_email="naodm2006awet4@gmail.com",
+    description="Transcription factor binding site prediction",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/pypa/example-project",
+    packages=setuptools.find_packages(),
+    classifiers=(
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ),
+)

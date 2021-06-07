@@ -1,0 +1,8 @@
+README.md
+setup.py
+TF3DScan/TF3DScan.py
+TF3DScan/__init__.py
+TF3Dscan.egg-info/PKG-INFO
+TF3Dscan.egg-info/SOURCES.txt
+TF3Dscan.egg-info/dependency_links.txt
+TF3Dscan.egg-info/top_level.txt
